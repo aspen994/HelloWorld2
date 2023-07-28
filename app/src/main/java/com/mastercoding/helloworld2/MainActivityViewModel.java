@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel;
 public class MainActivityViewModel extends ViewModel {
     private int counter = 40;
     // Hello we making first change
+    // Hello we making second change
 
     private MutableLiveData<Integer> countLiveData = new MutableLiveData<>();
 
